@@ -1,0 +1,51 @@
+:root{
+
+    --primario:#28A745;
+    --letras:white;
+    --font:'Roboto', sans-serif;
+
+
+}
+*{
+    font-family: var(--font);
+}
+
+.in{
+    display: inline;
+}
+
+.original{
+    font-size: 16px;
+
+}
+.oferta{
+
+    color: var(--primario);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card{
+    height: 100%;
+}
+
+.color-primario{
+    background-color: var(--primario);
+}
+
+.navbar-brand img{
+
+    height: 25px;
+
+}
+
+.formulario h5{
+
+    text-align: center;
+    color: var(--letras);  
+}
+
+.logonegro{
+    height: 24px;
+}
+

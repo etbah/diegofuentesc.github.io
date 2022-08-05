@@ -1,0 +1,158 @@
+:root{
+    --font1:'Leckerli One', cursive;
+    --font2:'Bebas Neue', cursive;
+    --color-letras: white;
+
+}
+
+.titulo{
+    font-family: var(--font1);
+    font-size: 30px;
+    color: var(--color-letras);
+
+
+}
+
+.titulo:hover{
+    transform: scale(1.2); 
+}
+
+
+
+.nav-link{
+    font-family: var(--font2);
+    font-size:25px;
+    color: var(--color-letras);
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(40deg,#edf7f8,#101f5e,#000000);
+    background-size: 250% 250%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
+}
+
+.cabecera{
+    height: 200px;
+    margin: 200px;
+}
+
+.masthead-avatar{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.masthead-heading{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+.masthead-subheading{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+hr {
+  background-color: white;
+  width:50%;
+  margin-left:25% !important;
+  margin-right:25% !important;
+
+}
+
+.experiencia{
+
+    margin: 100px;
+}
+
+.card{
+    
+    height: 125px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: #636363 0px solid;
+    
+    
+}
+
+.js img{
+ width: 80px;
+ display: block;
+ margin: 0px auto
+ 
+}
+
+.card-title{
+    text-align: center;
+}
+
+.habilidades{
+    padding-top: 50px;   
+    
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    
+}
+
+.trabajos img{
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    border: #000000 1px solid;
+   
+}
+
+p{
+    text-shadow: 1px 1px 1px rgb(0, 0, 49);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.trabajos img:hover{
+    transform: scale(1.2);
+}
+
+.correo{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.href{
+    
+    color: white;
+    text-decoration: none;
+    
+}
+.href:hover{
+    color: white;
+   
+}
+
+.lead{
+    text-align: justify;
+}
+
+
+

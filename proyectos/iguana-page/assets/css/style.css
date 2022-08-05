@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+}
+
+
+/* -- ESTILO ENCABEZADO CON TEXTO IGUANA */
+header h1{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 59px;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 59px;
+    font-family: Raleway;
+    letter-spacing: 0px;
+    color: white;
+    padding: 7px 0;
+}
+
+/*-- IMAGEN GRANDE*/
+header img{
+    width: 100%;
+    
+}
+
+/*Ajustar al tamaño completo imagen que esta abajo de header*/
+
+.contenido1{
+
+    background-color: black;
+    height: 348px;
+    
+    
+   
+}
+
+.contenido1 p{
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Raleway;
+    letter-spacing: 0px;
+    margin: 76px 655px 75px 150px;
+    float: left;
+    
+}
+
+.contenido1 img{
+    width: 399px;
+    height: 237px;
+    float: right;
+    margin: 45px 150px 66px 731px;
+
+}
+
+.contenido1 div{
+    display: flow-root;
+   
+}
+
+.contenido2{
+    background-color:#1E1A13;
+    height: 348px;
+    text-align: center;
+}
+
+.titulo2 {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-size: 40px;
+    line-height: 47px;
+    font-family: Raleway;
+    letter-spacing: 0px;
+    padding: 75px 0px 0px;
+
+}
+
+.iconos{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: Raleway;
+    color: white;
+    display:inline-block;
+    width: 25%;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    
+
+
+}
+
+.iconos i{
+    display: block;
+    
+}
+
+.contenido3{
+
+    color:black;
+    height: 348px;
+    text-align: center;
+
+}
+
+.imagenes{
+
+    display: inline-block;
+    width: 25%;
+    
+}
+
+.imagenes img{
+    width: 316px;
+    height: 202px;
+    margin: 73px 0px;   
+}
+
+footer{
+    background-color:#1E1A13;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Raleway;
+    padding: 39px 0; 
+}
+
+a:link, a:visited,  a:hover, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align:justify;
+}
+
+
+.header{
+    height: 10em;
+    padding: 1em;
+    font-size: 2em;
+    color: white;
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header h1{
+    margin: 0px;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: gold;
+    text-align: center;
+    
+}
+
+.slogan {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: goldenrod;
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+
+}
+
+
+.productos{
+    width: 80%;
+    margin: auto;
+}
+.productos td{
+    width: 50%;
+    padding: 2em;
+}
+
+.productos img{
+    width: 70%;
+    border: solid  1px black;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
